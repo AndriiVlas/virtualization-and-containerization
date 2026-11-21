@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Page</title>
+    <script src="main.js" type="module" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Вебзастосунок</h1>
+
+        <section>
+            <h2>Інформація про студента та контейнер</h2>
+            <p id="full-name">Андрій</p>
+            <p id="group-code">6.1214-пі</p>
+            <p id="hostname"></p>
+            <p id="ip"></p>
+            <p id="dbms"></p>
+            <p id="port"></p>
+        </section>
+
+        <template id="student-record-tpl">
+            <article class="student-record">
+                <p class="student-record-id"></p>
+                <p class="student-record-full-name"></p>
+                <p class="student-record-group-code"></p>
+            </article>
+        </template>
+        <div id="student-record-container">
+            <h2>Отримані записи з бази даних</h2>
+        </div>
+    </main>
+</body>
+
+</html>
